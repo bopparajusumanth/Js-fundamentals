@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Dom Manipulations</title>
+    <script type="text/javascript">
+function fn1(){
+    var x = document.getElementById("text1").value;
+    var y = document.getElementById("text2").value;
+    // var str = document.getElementById("text1").value;
+   // alert("value inside the text box is :  "+str);
+if(x == y){
+    alert("The username and password are same");
+}
+else{
+    alert("the username password doesn't match");
+}
+}
+    </script>
+</head>
+<body>
+    <input id ="text1" placeholder="username">
+    <br><br>
+    <input type="password" id="text2" placeholder="password">
+    <br><br>
+    <button onclick="fn1()" id = "btn1"> Clickme </button>
+</body>
+
+</html>
